@@ -1,8 +1,9 @@
 ---
 
-vms:
-  hosts:
-    rhel8:
-      ansible_host: 192.168.122.130
-  vars:
-    ansible_user: ori
+all:
+  vms:
+    hosts:
+      rhel8:
+        ansible_host: 192.168.122.130
+    vars:
+      ansible_user: ori
